@@ -105,5 +105,5 @@ if __name__ == "__main__":
     # Verificar requisitos antes de iniciar o aplicativo
     if verificar_requisitos():
         main()
-    else:
+    else: 
         sys.exit(1)

@@ -698,7 +698,7 @@ class FPUTSimulatorGUI:
             canvas.yview_scroll(int(-1*(event.delta/120)), "units")
         
         canvas.bind_all("<MouseWheel>", _on_mousewheel)
-        
+         
         return theory_frame
 
     def update_visualizations(self, soliton_positions):
