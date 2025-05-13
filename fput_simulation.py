@@ -36,7 +36,7 @@ class FPUTSimulation:
     def set_initial_conditions(self, mode=1, amplitude=0.1):
         """
         Define as condições iniciais excitando um único modo normal.
-         
+          
         Parâmetros:
         - mode: número do modo a ser excitado (1 é o primeiro modo)
         - amplitude: amplitude da excitação inicial
